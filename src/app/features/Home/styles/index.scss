@@ -1,0 +1,13 @@
+.root {
+  margin-top: 2rem;
+}
+button {
+  &.link {
+    border: 0px;
+    background: none;
+    color: #0000ee;
+    &:focus {
+      outline: none;
+    }
+  }
+}

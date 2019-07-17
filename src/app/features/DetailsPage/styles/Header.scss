@@ -1,0 +1,26 @@
+button {
+  &.round {
+    border-radius: 50%;
+  }
+}
+h2 {
+  &.white {
+    color: #ffffff;
+  }
+}
+
+%linkButton {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a {
+  &:hover {
+    &.link {
+      @extend %linkButton;
+    }
+  }
+  &.link {
+    @extend %linkButton;
+  }
+}

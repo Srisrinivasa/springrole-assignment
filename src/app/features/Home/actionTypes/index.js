@@ -1,0 +1,5 @@
+export const actionTypes = {
+    GET_DATA: '@@USER/GET_DATA',
+    GET_DATA_FULFILLED: '@@USER/GET_DATA_FULFILLED',
+    GET_DATA_REJECTED: '@@USER/GET_DATA_REJECTED',
+}
